@@ -163,3 +163,17 @@ class Animal{
 
 var myAnimal = new Animal('Gumball');
 myAnimal.sayName();
+
+// Estendendo Classe
+
+class Cat extends Animal{
+    constructor(name, age){
+        super(name);
+        this.age = age;
+    }
+
+    cry(){
+        super.sayname();
+        console.log('Meow');
+    }
+}
