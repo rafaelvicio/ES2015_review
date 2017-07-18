@@ -52,3 +52,8 @@ var myList = [3, 4, 5],
 
 console.log(a);
 
+// Template Literals
+
+var myVar = 5;
+console.log('My Var value is ${myVar}');
+
