@@ -41,4 +41,14 @@ function myFunc(a = 5){
     console.log(a);
 }
 
+// Symbols
+
+var mySymbols = Sumbol("My new Symbol");
+
+// Operador Spread
+
+var myList = [3, 4, 5],
+    a = [1, 2, ...myList];
+
+console.log(a);
 
