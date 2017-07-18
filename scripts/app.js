@@ -30,4 +30,15 @@ var a = 1;
 var b = 2;
 var c = 3;
 
+// Valor padrão a parametro na função
+
+function myFunc(a){
+    a = a || 5;
+    console.log(a);
+}
+
+function myFunc(a = 5){
+    console.log(a);
+}
+
 
