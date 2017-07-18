@@ -96,4 +96,16 @@ var obj = {
     b
 }
 
+var obj = {
+    x: function(){
+        console.log(this);
+    }
+}
+
+var obj = {
+    x(){
+        console.log(this);
+    }
+}
+
 
