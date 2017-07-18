@@ -127,3 +127,13 @@ var b = { value: 2};
 
 myObj.set(a, 5);
 myObj.set(b, 10);
+
+// Sets
+
+var mySet = new Set();
+var a = { myValue: 1};
+var b = { myValue: 2};
+
+mySet.add(a);
+mySet.add(b);
+mySet.add(c);
