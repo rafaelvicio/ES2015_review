@@ -177,3 +177,13 @@ class Cat extends Animal{
         console.log('Meow');
     }
 }
+
+// Static
+
+class myClass{
+    static double(number){
+        return number * 2;
+    }
+}
+
+myClass.double(3);
