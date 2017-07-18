@@ -69,3 +69,31 @@ for (var value of list){
     console.log( value );
 }
 
+// Arrow Functions
+
+var sum = (a, b) => {
+    return a + b;
+}
+
+var double = n => n * 2;
+console.log(double(5));
+
+// Objectos Literais
+
+var a = 5;
+var b = 7;
+
+var obj = {
+    a: a,
+    b: b
+}
+
+var a = 5;
+var b = 7;
+
+var obj = {
+    a,
+    b
+}
+
+
