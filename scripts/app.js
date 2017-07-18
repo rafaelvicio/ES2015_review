@@ -137,3 +137,14 @@ var b = { myValue: 2};
 mySet.add(a);
 mySet.add(b);
 mySet.add(c);
+
+// WeakSets
+
+var mySet = new WeakSet();
+var a = { myValue: 1};
+var b = { myValue: 2};
+
+mySet.add(a);
+mySet.add(b);
+
+a = null;
